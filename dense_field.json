@@ -1,0 +1,15 @@
+{
+  "name": "Dense Field Layout",
+  "crop_type": "Wheat",
+  "grid_configuration": {
+    "rows": 25, "cols": 25,
+    "drone_start": [0, 0]
+  },
+  "obstacles": [],
+  "disease_seeds": [
+    { "cell": [5,5],  "type": "severe",  "spread_radius": 5 },
+    { "cell": [15,15], "type": "severe", "spread_radius": 4 },
+    { "cell": [20,3], "type": "severe", "spread_radius": 3 },
+    { "cell": [3,20], "type": "severe", "spread_radius": 3 }
+  ]
+}

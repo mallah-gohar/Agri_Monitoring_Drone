@@ -1,0 +1,22 @@
+{
+  "name": "Severe Outbreak Field",
+  "crop_type": "Wheat",
+  "grid_configuration": {
+    "rows": 25,
+    "cols": 25,
+    "drone_start": [0, 0]
+  },
+  "obstacles": [
+    [12, 12], [12, 13], [13, 12], [13, 13]
+  ],
+  "disease_seeds": [
+    { "cell": [4, 4],   "type": "severe", "spread_radius": 4 },
+    { "cell": [4, 20],  "type": "severe", "spread_radius": 4 },
+    { "cell": [20, 4],  "type": "severe", "spread_radius": 4 },
+    { "cell": [20, 20], "type": "severe", "spread_radius": 4 },
+    { "cell": [10, 10], "type": "early",  "spread_radius": 3 },
+    { "cell": [10, 18], "type": "early",  "spread_radius": 3 },
+    { "cell": [18, 10], "type": "early",  "spread_radius": 3 },
+    { "cell": [7, 14],  "type": "severe", "spread_radius": 2 }
+  ]
+}
