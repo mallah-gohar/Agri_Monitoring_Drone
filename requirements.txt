@@ -1,0 +1,8 @@
+PyQt6
+matplotlib
+scikit-learn
+numpy
+pandas
+google-generativeai
+python-dotenv
+joblib
